@@ -1,0 +1,544 @@
+body {
+  padding:0;
+  margin: 0;
+ 
+}
+.bg {
+  width: 1600px;
+  height: 4450px;
+  background-color: #212227;
+}
+.hero {
+  width: 1600px;
+  height: 900px;
+  background-color:	white;
+  background-image:	url("../img/hero_image.png");
+}
+.color {
+  width: 1600px;
+  height: 900px;
+  background-color: rgba(31,  225,  237,  0.5);
+}
+.color-slanted {
+  width: 1129px;
+  height: 900px;
+  margin-left: 470px;
+  background-image: url("../img/slanted.png");
+}
+.hero .text {
+  position: absolute;
+  top: 360px;
+  left: 200px;
+  width: 535px;
+  height: 255px;
+}
+.text-amaz
+{
+  width: 550px;
+  font-size: 72px;
+  line-height: 1;
+  font-family: Fira  Sans  Light;
+  }
+.text-welcom {
+  font-size: 30px;
+}
+.hero .logo {
+  position:	absolute;
+  width: 80px;
+  height: 80px;
+  top: 90px;
+  left:	210px;
+  background-image:	url("../img/container_black.png");
+  color: white;
+  font-size: 60px;
+  text-align: center;
+}
+.menu {
+  position: absolute;
+  display: block;
+  width: 60px;
+  height: 30px;
+  left: 1335px;
+  top: 105px;
+  padding-top: 30px;
+  font-size: 14px;
+  background-image:	url("../img/shape.png");
+  background-repeat:	no-repeat;
+}
+ a {
+  text-decoration: none;
+  color: white;
+}
+ ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.menu a {
+  width: 100px;
+  transition: 0.5s  all;
+}
+.menu-drop a:hover {
+  background: black;
+  padding: 5px  5px  5px  5px;
+  line-height: 1.5;
+}
+.menu-list a {
+  color: black;
+}
+.menu-drop a {
+  color: white;
+  background: black;
+  border-radius: 30px;
+}
+.menu-list {
+  position: relative;
+  left: -10px;
+  top: 10px;
+  width: 50px;
+  height: 50px;
+}
+.menu-drop {
+  position: absolute;
+  left: 100%;
+  opacity: 0;
+  top: -9999em;
+  transition: 0.5s  opacity;
+  border-top: 10px  solid  transparent;
+}
+.menu:hover .menu-drop {
+  top: -45px;
+  left: 50px;
+  opacity: 1;
+}
+.about {
+  width: 1600px;
+  height: 500px;
+  background-color:	white;
+}
+.leftcolum {
+  display: inline-block;
+  width: 800px;
+  height: 500px;
+  background-image:	url("../img/photo.png");
+}
+.color-red {
+  width: 800px;
+  height: 500px;
+  background-color: rgba(237,  31,  36,  61%);	
+}
+.rightcolum {
+  position: absolute;
+  display:inline-block;
+  width: 800px;
+  height: 500px;
+  color: black;
+}
+.rightcolum .text-sed {
+  margin-top: 120px;
+  padding-left: 60px;
+  font-size: 24px;
+}
+.rightcolum .text-furse {
+  padding-left: 60px;
+  width: 470px;
+  font-family: Fira  Sans  light;
+  font-size: 36px;
+}
+.gallery {
+  width: 1600px;
+  height: 1030px;
+}
+.photo-kanat {
+  display: inline-block;
+  width: 400px;
+  height: 515px;
+  background-image: url("../img/kanat.png")
+}
+.man {
+  display: inline-block;
+  width: 400px;
+  height: 515px;
+  margin-left: -5px;
+  background-image: url("../img/man.png");
+}
+.skiing {
+  display: inline-block;
+  width: 400px;
+  height: 515px;
+  margin-left: -4px;
+  background-image: url("../img/skiing.png");
+}
+.mount {
+  display: inline-block;
+  width: 400px;
+  height: 515px;
+  margin-left: -5px;
+  background-image: url("../img/mount.png");
+}
+.conteiner-blue {
+  display: inline-block;
+  width: 800px;
+  height: 515px;
+  margin-top: -6px;
+  vertical-align: top;
+  background-image: url("../img/conteiner_blue.png");
+}
+.text-instagram {
+  margin-top: 125px;
+  margin-left: 210px;
+  text-decoration: none;
+  font-size: 24px;
+  color: white;
+  font-family: Fira  Sans  Bold;
+}
+.text-etiam {
+  width: 490px;
+  margin-left: 210px;
+  font-size: 36px;
+  color: white;
+  font-family: Fira  Sans  Light;
+}
+.conteiner-blue .button {
+  position: relative;
+  width: 280px;
+  height: 55px;
+  margin-left: 210px;
+  font-size: 18px;
+  color: white;
+  border-radius: 30px;
+  border: 2px solid white;
+  text-align: center;
+  font-family: Fira  Sans  Bold;
+}
+.inventory {
+  display: inline-block;
+  width: 400px;
+  height: 515px;
+  margin-left: -5px;
+  margin-top: -6px;
+  background-image: url("../img/inventory.png");
+}
+.conteiner-bluesmall {
+  display: inline-block;
+  width: 400px;
+  height: 515px;
+  margin-left: -4px;
+  margin-top: -6px;
+  background-image: url("../img/conteiner_bluesmall.png");
+}
+.music {
+  width: 1600px;
+  height: 800px;
+  margin-top: -5px;
+  background-image: url("../img/photo_music.png");
+}
+.conteiner-grey {
+  display: inline-block;
+  width: 400px;
+  height: 800px;
+  background-image: url("../img/conteiner_grey.png");
+}
+.conteiner-greysmall {
+  display: inline-block;
+  width: 400px;
+  height: 500px;
+  margin-left: -5px;
+  background-image: url("../img/conteiner_greysmall.png");
+  vertical-align: top;
+}
+.text-self {	
+  width: 280px;
+  margin-top: 140px;
+  margin-left: 60px;
+  font-size: 24px;
+  color: #2ebd59;
+}
+.text-self span {
+font-size:18px;
+}
+.text-director{
+  width: 258px;
+  margin-left: 60px;
+  color: white;
+  font-family: Fira  Sans  Regular;
+}
+.conteiner-greysmall .button-clicktoplay {
+  position: relative;
+  top: 50px;
+  width: 175px;
+  padding: 10px;
+  margin-top: 50px;
+  margin-left: 60px;
+  color: #2ebd59;
+  font-size: 18px;
+  border-radius: 30px;
+  border: 2px  solid  #2ebd59;
+  text-align: center;
+  text-decoration: none;
+}
+.button,
+.button-follow,
+.button-buy {
+  text-decoration: none;
+  color: white;
+  }
+.spotify {
+  display: inline-block;
+  width: 800px;
+  height: 515px;
+  background-image: url("../img/container_green.png");
+  vertical-align: top;
+}
+.text-spotify{		
+  margin-left: 210px;
+  margin-top: 140px;
+  color: white;
+  font-size: 24px;
+  font-family: Fira  Sans  Bold;
+}
+.text-follow {
+  width: 491px;
+  margin-left: 210px;
+  color: white;
+  font-size: 36px;
+  font-family: Fira  Sans  Light; 
+}
+.button-follow {
+  width: 275px;
+  margin-left: 210px;
+  border-radius: 30px;
+  border: 2px  solid  white;
+  text-align: center;
+  font-family: Fira  Sans  Bold;
+  color: white;
+  font-size: 18px;	
+}
+.itunes {
+  display: inline-block;
+  width: 800px;
+  height: 515px;
+  margin-left: -5px;
+  background-image: url("../img/container_brown.png");
+}
+.text-itunes {
+  margin-left: 210px;
+  margin-top: 140px;
+  color: white;
+  font-size: 24px;
+  font-family: Fira  Sans  Bold;
+}
+.text-buy {
+  width: 460px;
+  margin-left: 210px;
+  color: white;
+  font-size: 36px;
+  font-family: Fira  Sans  Light; 
+}
+.button-buy {
+  width: 275px;
+  margin-left: 210px;
+  color: white;
+  font-size: 18px;
+  border-radius: 30px;
+  border: 2px  solid  white;
+  text-align: center;
+  font-family: Fira  Sans  Bold;
+}
+.colum-amazing {
+  display: inline-block;
+  width: 285px;
+  height: 360px;
+  color: white;
+  margin-left: 210px;
+  margin-top: 100px;
+}
+.text-amazingfooter,
+.text-contactme,
+.text-followmefooter {
+  width: 160px;
+  color: white;
+  font-family: Firan Sansn Bold;
+  font-size: 18px;
+}
+.text-mauris,
+.text-allrights,
+.text-crestview,
+.text-duis {
+font-size: 14px;
+color: #919191;
+}
+.text-amazingfooter,
+.text-subscribe {
+  font-family: Fira  Sans  Bold;
+  font-size: 18px;
+}
+.text-mauris {
+  width: 270px;
+
+  
+}
+.text-allrights {
+  margin-top: 30px;
+}
+.colum-contact {
+  display: inline-block;
+  width: 165px;
+  height: 350px;
+  vertical-align: top;
+  margin-top: 100px;
+  margin-left: 115px;
+}
+.contact {
+  display: inline-block;
+  width: 165px;
+  height: 150px;
+  color: white;
+  vertical-align: top;
+}
+.social {
+  display: inline-block;
+  width: 165px;
+  height: 150px;
+}
+.face {
+  width: 165px;
+  height:140px;
+  color: white;
+ }
+.simvol {
+  display: inline-block;
+  width: 20px;
+  height: 140px;
+  font-size: 14px
+}
+ .fb {
+  width: 16px;
+  height: 16px;
+  background-image: url("../img/facebook.png");
+  background-repeat: no-repeat;
+  margin-top: 15px;
+}
+.simvol .tw {
+  width: 16px;
+  height: 16px;
+  background-image: url("../img/twiter.png");
+  background-repeat: no-repeat;
+  margin-top: 15px;
+}
+.simvol .ins {
+  width: 16px;
+  height: 16px;
+  background-image: url("../img/instagram.png");
+  background-repeat: no-repeat;
+  margin-top: 15px;
+}
+.simvol .sp {
+  width: 16px;
+  height: 16px;
+  background-image: url("../img/spotify.png");
+  background-repeat: no-repeat;
+  margin-top: 10px;
+}
+.name {
+  display: inline-block;
+  width: 125px;
+  height: 140px;
+  margin-left: 10px;
+  font-size: 14px;
+  vertical-align: top;
+  color: #919191;
+  font-family: Fira  Sans  Bold;
+  margin-top: 15px;
+}
+.name a {
+  text-decoration: none;
+  color: #919191;
+}
+.colum-subcribe{
+  display: inline-block;
+  width: 480px;
+  height: 380px;
+  margin-top: 100px;
+  margin-left: 140px;	
+  vertical-align: top;
+  color: white;
+}
+.address {
+  display: block;
+  width: 480px;
+  height: 60px;
+  background-image: url("../img/form.png");
+}
+.pole {
+  width: 480px;
+  height: 60px;
+  position: relative;
+  top: -40px;
+  padding-left: 20px;
+  color: grey;
+  border: none;
+  background-color: #68696c;
+}
+.send {
+  width: 18px;
+  height: 18px;
+  background-image: url("../img/send.png");
+  position: relative;
+  top: -80px;
+  left: 445px;
+  border: none;
+}
+.text-form {
+  margin-left: 20px;
+  padding-top: 25px;
+  color: #919191;
+  font-size: 14px;
+}
+
+
+.sponsor {
+  margin-top: 30px;
+  font-size: 18px;
+  font-family: Fira  Sans  Bold;
+}
+.logo {
+  display: block;
+  width: 480px;
+  height: 85px;
+  margin-top: 20px;
+}
+.logo-left {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  background-image: url("../img/image.png");
+  font-size: 12px;
+}
+.logo-center {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  background-image: url("../img/image.png");
+  margin-left: 25px;
+  font-size: 12px;
+}
+.logo-right{
+  display: inline-block;
+  font-size: 12px;
+  width: 80px;
+  height: 80px;
+  background-image: url("../img/image.png");
+  margin-left: 25px;
+}
+.logo span {
+  position: relative;
+  top: 35px;
+  left: 25px;
+}
+.text-amaz .joe {
+  font-family: Fira  Sans  Bold;
+}
+.text-sed .sed {
+  font-family: Fira  Sans  Bold;
+}
