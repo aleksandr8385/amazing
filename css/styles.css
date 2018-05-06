@@ -12,7 +12,7 @@ body {
   width: 1600px;
   height: 900px;
   background-color:	white;
-  background-image:	url("../img/HERO IMAGE.png");
+  background-image:	url("../img/hero image.png");
 }
 .color {
   width: 1600px;
@@ -23,7 +23,7 @@ body {
   width: 1129px;
   height: 900px;
   margin-left: 470px;
-  background-image: url("../img/SLANTED.png");
+  background-image: url("../img/slanted.png");
 }
 .hero .text {
   position: absolute;
@@ -47,7 +47,7 @@ body {
   height: 80px;
   top: 90px;
   left:	210px;
-  background-image:	url("../img/CONTAINER1.png");
+  background-image:	url("../img/container1.png");
   color: white;
   font-size: 60px;
   text-align: center;
@@ -119,7 +119,7 @@ body {
   display:inline-block;
   width: 800px;
   height: 500px;
-  background-image:	url("../img/PHOTO.png");
+  background-image:	url("../img/photo.png");
 }
 .color2 {
   width: 800px;
@@ -152,28 +152,28 @@ body {
   display: inline-block;
   width:400px;
   height:515px;
-  background-image: url("../img/PHOTO1.png")
+  background-image: url("../img/photo1.png")
 }
 .photo2 {
   display: inline-block;
   width: 400px;
   height: 515px;
   margin-left: -4px;
-  background-image: url("../img/PHOTO2.png");
+  background-image: url("../img/photo2.png");
 }
 .photo3 {
   display: inline-block;
   width: 400px;
   height: 515px;
   margin-left: -4px;
-  background-image: url("../img/PHOTO3.png");
+  background-image: url("../img/photo3.png");
 }
 .photo4 {
   display: inline-block;
   width: 400px;
   height: 515px;
   margin-left: -5px;
-  background-image: url("../img/PHOTO4.png");
+  background-image: url("../img/photo4.png");
 }
 .conteiner2 {
   display: inline-block;
@@ -181,7 +181,7 @@ body {
   height: 515px;
   margin-top: -6px;
   vertical-align: top;
-  background-image: url("../img/CONTAINER2.png");
+  background-image: url("../img/container2.png");
 }
 .text5 {
   margin-top: 125px;
@@ -216,7 +216,7 @@ body {
   height: 515px;
   margin-left: -5px;
   margin-top: -6px;
-  background-image: url("../img/PHOTO5.png");
+  background-image: url("../img/photo5.png");
 }
 .conteiner3 {
   display: inline-block;
@@ -224,26 +224,26 @@ body {
   height: 515px;
   margin-left: -4px;
   margin-top: -6px;
-  background-image: url("../img/CONTAINER3.png");
+  background-image: url("../img/container3.png");
 }
 .music {
   width: 1600px;
   height:800px;
   margin-top:-5px;
-  background-image:url("../img/PHOTO6.png");
+  background-image:url("../img/photo6.png");
 }
 .conteiner4 {
   display: inline-block;
   width: 400px;
   height: 800px;
-  background-image: url("../img/CONTAINER4.png");
+  background-image: url("../img/container4.png");
 }
 .conteiner5 {
   display: inline-block;
   width: 400px;
   height: 500px;
   margin-left: -5px;
-  background-image: url("../img/CONTAINER5.png");
+  background-image: url("../img/container5.png");
   vertical-align:top;
 }
 .text7 {	
@@ -286,7 +286,7 @@ font-size:18px;
   display: inline-block;
   width: 800px;
   height: 515px;
-  background-image: url("../img/CONTAINER6.png");
+  background-image: url("../img/container6.png");
   vertical-align: top;
 }
 .text9 {		
@@ -318,7 +318,7 @@ font-size:18px;
   width: 800px;
   height: 515px;
   margin-left: -5px;
-  background-image: url("../img/CONTAINER7.png");
+  background-image: url("../img/container7.png");
 }
 .text11 {
   margin-left: 210px;
@@ -374,6 +374,8 @@ color: #919191;
 }
 .text14 {
   width: 270px;
+
+  
 }
 .text15 {
   margin-top: 30px;
@@ -414,24 +416,28 @@ color: #919191;
   height: 16px;
   background-image: url("../img/facebook.png");
   background-repeat: no-repeat;
+  margin-top:15px;
 }
 .simvol .tw {
   width: 16px;
   height: 16px;
   background-image: url("../img/twiter.png");
   background-repeat: no-repeat;
+  margin-top:15px;
 }
 .simvol .ins {
   width: 16px;
   height: 16px;
   background-image: url("../img/instagram.png");
   background-repeat: no-repeat;
+  margin-top:15px;
 }
 .simvol .sp {
   width: 16px;
   height: 16px;
   background-image: url("../img/spotify.png");
   background-repeat: no-repeat;
+  margin-top:10px;
 }
 .name {
   display: inline-block;
@@ -442,6 +448,7 @@ color: #919191;
   vertical-align: top;
   color: #919191;
   font-family: Fira Sans Bold;
+  margin-top:15px;
 }
 .name a {
   text-decoration: none;
@@ -460,9 +467,9 @@ color: #919191;
   display: block;
   width: 480px;
   height: 60px;
-  background-image: url("../img/FORM1.png");
+  background-image: url("../img/form1.png");
 }
-#pole {
+.pole {
   width: 480px;
   height:60px;
   position: relative;
@@ -472,7 +479,7 @@ color: #919191;
   border: none;
   background-color: #68696c;
 }
-#send {
+.send {
   width: 18px;
   height: 18px;
   background-image: url("../img/send.png");
@@ -506,14 +513,14 @@ color: #919191;
   display: inline-block;
   width: 80px;
   height: 80px;
-  background-image: url("../img/Image.png");
+  background-image: url("../img/image.png");
   font-size: 12px;
 }
 .logo2 {
   display: inline-block;
   width: 80px;
   height: 80px;
-  background-image: url("../img/Image.png");
+  background-image: url("../img/image.png");
   margin-left: 25px;
   font-size: 12px;
 }
@@ -522,7 +529,7 @@ color: #919191;
   font-size: 12px;
   width: 80px;
   height: 80px;
-  background-image: url("../img/Image.png");
+  background-image: url("../img/image.png");
   margin-left: 25px;
 }
 .logo span {
